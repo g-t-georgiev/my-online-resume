@@ -1,0 +1,48 @@
+/* Certificates section styles */
+
+/* #certificates {} */
+
+.certificate-entries {
+    max-inline-size: 100%;
+}
+
+.certificate-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .25rem 0;
+}
+
+.certificate-entry:not(:last-of-type) {
+    margin-block-end: 1.2rem;
+}
+
+.certificate-entry-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.certificate-entry-date {
+    color: #000;
+    font-weight: 400;
+    font-style: italic;
+
+    margin-inline-start: .5rem;
+}
+
+.certificate-entry-date::before {
+    content: '(';
+}
+
+.certificate-entry-date::after {
+    content: ')';
+}
+
+.certificate-entry-link {
+    flex-basis: 100%;
+
+    text-decoration: none;
+    font-weight: 300;
+    color: #449399;
+}

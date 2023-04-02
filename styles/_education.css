@@ -1,0 +1,90 @@
+/* Education section styles */
+
+/* #education {} */
+
+.education-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.education-entry-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    margin-block-end: .3rem;
+}
+
+.education-entry-subject {
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    display: block;
+    margin-block-end: .45rem;
+}
+
+.education-entry-dates,
+.education-entry-location,
+.education-entry-courses-label {
+    display: inline-block;
+
+    color: #449399;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.education-entry-dates::before {
+    content: '\f073';
+    font-family: FontAwesome;
+    font-style: normal;
+
+    margin-inline-end: .2rem;
+}
+
+.education-entry-date,
+.education-entry-location {
+    font-size: 1rem;
+}
+
+.education-entry-location {
+    margin-inline-start: 7rem;
+}
+
+.education-entry-location::before {
+    content: '\f3c5';
+    font-family: FontAwesome;
+    font-style: normal;
+
+    margin-inline-end: .3rem;
+}
+
+
+.education-entry-courses {
+    margin-block-start: .75rem;
+}
+
+.education-entry-courses-label {
+    display: block;
+}
+
+.education-entry-courses-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem .75rem;
+
+    font-size: 1rem;
+
+    max-inline-size: 100%;
+    margin-block-start: .5rem;
+}
+
+.education-entry-course::before {
+    content: '';
+    display: inline-block;
+    margin-block-end: .1rem;
+    margin-inline-end: .65rem;
+    inline-size: .55rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    background-color: #449399;
+}

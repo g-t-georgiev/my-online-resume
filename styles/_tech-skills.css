@@ -1,0 +1,113 @@
+/* Tech-skills section styles */
+
+/* #tech-skills {} */
+
+.tech-skill-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    max-inline-size: 100%;
+}
+
+.tech-skill-entry:last-of-type .tech-skill-entry-title {
+    margin-block-end: 0;
+}
+
+.tech-skill-entry-title {
+    font-size: 1.2rem;
+    line-height: 1;
+
+    margin-block-end: .35rem;
+}
+
+.tech-skill-entry-stack {
+    font-size: 1.10rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.tech-skill-entry-stack-item:not(:first-of-type) {
+    margin-inline-start: 1rem;
+}
+
+.tech-skill-entry-stack-item {
+    display: flex;
+    align-items: center;
+}
+
+.tech-skill-entry-stack-item-txt {
+    display: inline-block;
+}
+
+.tech-skill-entry-stack-item img {
+    display: inline-block;
+    min-inline-size: 1rem;
+    aspect-ratio: 1 / 1;
+}
+
+.js-icon {
+    inline-size: 2rem;
+    margin-inline-end: .16rem;
+}
+
+.html-icon {
+    inline-size: 1.35rem;
+    margin-inline-end: .27rem;
+}
+
+.css-icon {
+    inline-size: 1.35rem;
+    margin-inline-end: .27rem;
+}
+
+.wordpress-icon {
+    inline-size: 1.3rem;
+    margin-inline-end: .32rem;
+}
+
+.angular-icon {
+    inline-size: 1.5rem;
+    margin-inline-end: .2rem;
+}
+
+.react-icon {
+    inline-size: 1.5rem;
+    margin-inline-end: .32rem;
+}
+
+.express-icon {
+    inline-size: 1.3rem;
+    margin-inline-end: .32rem;
+}
+
+.mocha-icon {
+    inline-size: 1.5rem;
+    margin-inline-end: .32rem;
+}
+
+.mongodb-icon {
+    inline-size: 1.65rem;
+    margin-inline-end: .18rem;
+}
+
+.ngrx-icon {
+    inline-size: 1.45rem;
+    margin-inline-end: .3rem;
+}
+
+.nodejs-icon {
+    inline-size: 1.65rem;
+    margin-inline-end: .2rem;
+}
+
+.mongoose-icon {
+    inline-size: 2.5rem;
+    margin-inline-end: .35rem;
+}
+
+.git-icon {
+    inline-size: 1.35rem;
+    margin-inline-end: .35rem;
+}

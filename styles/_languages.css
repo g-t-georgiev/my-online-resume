@@ -1,0 +1,33 @@
+/* Languages section styles */
+
+/* #languages {} */
+
+.language-entries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem 2rem;
+
+    max-inline-size: 100%;
+}
+
+.language-entry {
+    display: inline-block;
+
+    flex-grow: 1;
+    flex-basis: calc(50% - 2rem);
+}
+
+.language-entry-title { 
+    margin-block-end: .25rem;
+
+    line-height: 1;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.language-entry-proficiency {
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+    color: #449399;
+}

@@ -1,0 +1,26 @@
+/* Contact section styles */
+
+#contact {
+    background-color: #222a33;
+    color: #fff;
+
+    font-size: 1rem;
+
+    padding: 1.5rem 3rem;
+}
+
+.contact-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.10rem 3rem;
+}
+
+.contact-option a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-option i {
+    font-size: 1rem;
+    margin-inline-end: .5rem;
+}

@@ -1,0 +1,43 @@
+@page {
+    size: 8.3in 11.7in;
+    margin: 0;
+}
+
+@media print {
+
+    /* Global print styles */
+
+    html {
+        font-size: 10.65px;
+    }
+
+    body {
+        background-color: #fff;
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    /* Summary section print styles */
+
+    .summary-content-desc {
+        line-height: 1.25;
+    }
+
+    .summary-profile {
+        max-inline-size: 12%;
+    }
+
+    /* Project section print styles */
+
+    .project-stack-icons {
+        gap: .35rem;
+    }
+
+    .project-stack-icon {
+        scale: .85;
+    }
+
+}

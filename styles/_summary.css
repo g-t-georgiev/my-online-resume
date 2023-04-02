@@ -1,0 +1,61 @@
+/* Summary section styles */
+
+#summary {
+    background-color: #313c4e;
+    color: #fff;
+
+    padding: 2.5rem 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-content {
+    flex-basis: 70%;
+}
+
+.summary-content-name {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+
+    margin-block-end: .35rem;
+}
+
+.summary-content-job-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #449399;
+
+    display: block;
+    margin-block-end: 1rem;
+}
+
+.summary-content-desc {
+    font-size: 1.10rem;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.summary-profile {
+    max-inline-size: 15%;
+    aspect-ratio: 1 / 1;
+
+    padding: .3rem;
+    border-radius: 100%;
+    overflow: hidden;
+
+    background-color: #449399;
+}
+
+.summary-profile-pic {
+    block-size: 100%;
+    inline-size: 100%;
+    object-fit: cover;
+
+    border-radius: 100%;
+    
+    filter: brightness(90%);
+}

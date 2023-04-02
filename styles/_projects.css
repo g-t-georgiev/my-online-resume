@@ -1,0 +1,78 @@
+/* Personal-projects section styles */
+
+/* #personal-projects {} */
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+
+    max-inline-size: 100%;
+}
+
+.project-title {
+    display: inline-block;
+    margin-block-end: .25rem;
+
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.project-dates {
+    color: #000;
+    font-weight: 400;
+    font-style: italic;
+
+    margin-inline-start: .5rem;
+}
+
+.project-dates::before {
+    content: '(';
+}
+
+.project-dates::after {
+    content: ')';
+}
+
+.project-link {
+    display: block;
+    margin-block-end: .15rem;
+
+    text-decoration: none;
+    font-weight: 300;
+    color: #449399;
+}
+
+#food-blog-react-project .project-link:nth-of-type(2)::after {
+    content: '(REST API)';
+
+    position: absolute;
+
+    margin-inline-start: .25rem;
+
+    color: #000;
+    font-weight: 400;
+}
+
+.project-desc {
+    margin-block-start: .65rem;
+
+    font-size: 1rem;
+    line-height: 1.15;
+}
+
+.project-stack-icons {
+    display: flex;
+    gap: .75rem;
+
+    margin-block-start: .65rem;
+}
+
+.project-stack-icon {
+    display: inline-block;
+    min-inline-size: 1rem;
+    aspect-ratio: 1 / 1;
+
+    scale: 1.2;
+}
