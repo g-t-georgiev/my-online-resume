@@ -10,7 +10,6 @@ logs
 *.log.*
 
 # OS generated files #
-######################
 .DS_Store
 Thumbs.db
 ehthumbs.db
@@ -41,14 +40,17 @@ yarn.lock
 .env.production.local
 
 # IDEs and Text Editors #
-#########################
+
 # VS Code
 .vscode/
+
 # JetBrains (WebStorm, IntelliJ, etc.)
 .idea/
+
 # Sublime Text
 *.sublime-workspace
 *.sublime-project
+
 # MacOS file
 .DS_Store
 
