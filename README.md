@@ -9,12 +9,11 @@ The project is organized as follows:
 │   ├── /assets        # Static assets like images, fonts, etc.
 │   ├── /styles        # All CSS/SCSS files
 │   ├── /components    # Reusable HTML/JS components
-│   ├── /scripts       # Vanilla JS files (utilities, interactions)
-│   └── index.html     # Main HTML file
-│
-├── /dist              # Compiled/optimized files for production
+│   └── /scripts       # Vanilla JS files (utilities, interactions)
 │
 ├── /node_modules      # Installed npm packages
+│
+├── index.html         # Main HTML file
 │
 ├── .gitignore         # Files to ignore in version control
 ├── package.json       # npm dependencies and scripts
