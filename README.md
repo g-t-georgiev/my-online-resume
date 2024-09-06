@@ -2,6 +2,7 @@
 
 The project is organized as follows:
 
+```txt
 /root
 │
 ├── /src               # Source files for the project
@@ -20,7 +21,7 @@ The project is organized as follows:
 ├── package-lock.json  # Exact versioning of installed packages
 ├── README.md          # Project documentation
 └── webpack.config.js  # Configuration for bundling (if using Webpack)
-
+```
 
 ## **Key Directories:**
 - **src/**: Contains all the source files, such as assets, styles, components, and scripts.
