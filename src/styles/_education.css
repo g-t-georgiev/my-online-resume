@@ -70,20 +70,24 @@
 .education-entry-courses-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem .75rem;
-
-    font-size: 1rem;
-
+    gap: .85rem .75rem;
     max-inline-size: 100%;
     margin-block-start: .5rem;
+}
+
+.education-entry-course {
+    font-size: 1.0625rem;
+    position: relative;
+    padding-inline-start: .85rem;
 }
 
 .education-entry-course::before {
     content: '';
     display: inline-block;
-    margin-block-end: .1rem;
-    margin-inline-end: .65rem;
-    inline-size: .55rem;
+    position: absolute;
+    top: .35rem;
+    left: 0;
+    inline-size: .42rem;
     aspect-ratio: 1 / 1;
     border-radius: 100%;
     background-color: #449399;
