@@ -78,7 +78,7 @@
 .education-entry-course {
     font-size: 1.0625rem;
     position: relative;
-    padding-inline-start: .85rem;
+    padding-inline-start: 1rem;
 }
 
 .education-entry-course::before {
@@ -89,6 +89,6 @@
     left: 0;
     inline-size: .42rem;
     aspect-ratio: 1 / 1;
-    border-radius: 100%;
+    border-radius: 9999px;
     background-color: #449399;
 }
