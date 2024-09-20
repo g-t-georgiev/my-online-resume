@@ -6,20 +6,17 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: .65rem;
-
+    gap: .75rem .65rem;
     max-inline-size: 100%;
 }
 
 .soft-skill-entry {
     background-color: #979da1;
     color: #fff;
-
-    padding: .35rem .75rem;
-
+    padding: .375rem .785rem;
     border-radius: 6px;
 }
 
 .soft-skill-entry-title {
-    font-size: 1rem;
+    font-size: 1.0625rem;
 }
