@@ -28,7 +28,7 @@
 .education-entry-courses-label {
     display: inline-block;
 
-    color: #449399;
+    color: #28b4a3;
     font-weight: 400;
     font-style: italic;
 }
@@ -37,7 +37,6 @@
     content: '\f073';
     font-family: FontAwesome;
     font-style: normal;
-
     margin-inline-end: .2rem;
 }
 
@@ -54,7 +53,6 @@
     content: '\f3c5';
     font-family: FontAwesome;
     font-style: normal;
-
     margin-inline-end: .3rem;
 }
 
@@ -90,5 +88,5 @@
     inline-size: .42rem;
     aspect-ratio: 1 / 1;
     border-radius: 9999px;
-    background-color: #449399;
+    background-color: #28b4a3;
 }
