@@ -27,7 +27,7 @@
 .summary-content-job-title {
     font-size: 1.5rem;
     font-weight: 400;
-    color: #449399;
+    color: #28b4a3;
 
     display: block;
     margin-block-end: 1rem;
@@ -47,7 +47,7 @@
     border-radius: 100%;
     overflow: hidden;
 
-    background-color: #449399;
+    background-color: #28b4a3;
 }
 
 .summary-profile-pic {
