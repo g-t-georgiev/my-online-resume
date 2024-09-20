@@ -1,0 +1,79 @@
+.job-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-block-end: .3rem;
+}
+
+.job-entry .company-name {
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: block;
+    margin-block-end: .75rem;
+}
+
+.job-entry-dates,
+.job-entry-location,
+.job-entry-tasks-label {
+    display: inline-block;
+    color: #449399;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.job-entry-date,
+.job-entry-location {
+    font-size: 1rem;
+}
+
+.job-entry-location {
+    margin-inline-start: 7rem;
+}
+
+.job-entry-dates::before {
+    content: '\f073';
+    font-family: FontAwesome;
+    font-style: normal;
+    margin-inline-end: .2rem;
+}
+
+.job-entry-location::before {
+    content: '\f3c5';
+    font-family: FontAwesome;
+    font-style: normal;
+    margin-inline-end: .3rem;
+}
+
+.job-entry-descr {
+    margin-block: .65rem .45rem;
+    font-size: 1rem;
+    line-height: 1.15;
+}
+
+.job-entry-tasks-label {
+    display: block;
+}
+
+.job-entry-tasks {
+    font-size: 1rem;
+    max-inline-size: 100%;
+    margin-block-start: .5rem;
+}
+
+.job-entry-task {
+    margin-block-end: .65rem;
+}
+
+.job-entry-task:last-child {
+    margin-block-end: 0;
+}
+
+.job-entry-task::before {
+    content: '';
+    display: inline-block;
+    margin-block-end: .1rem;
+    margin-inline-end: .65rem;
+    inline-size: .55rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    background-color: #449399;
+}
