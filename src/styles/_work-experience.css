@@ -45,7 +45,7 @@
 
 .job-entry-descr {
     margin-block: .65rem .45rem;
-    font-size: 1rem;
+    font-size: 1.0625rem;
     line-height: 1.15;
 }
 
@@ -54,12 +54,14 @@
 }
 
 .job-entry-tasks {
-    font-size: 1rem;
     max-inline-size: 100%;
     margin-block-start: .5rem;
 }
 
 .job-entry-task {
+    font-size: 1.0625rem;
+    position: relative;
+    padding-inline-start: 1rem;
     margin-block-end: .65rem;
 }
 
@@ -70,10 +72,11 @@
 .job-entry-task::before {
     content: '';
     display: inline-block;
-    margin-block-end: .1rem;
-    margin-inline-end: .65rem;
-    inline-size: .55rem;
+    position: absolute;
+    top: .35rem;
+    left: 0;
+    inline-size: .42rem;
     aspect-ratio: 1 / 1;
-    border-radius: 100%;
+    border-radius: 9999px;
     background-color: #449399;
 }
