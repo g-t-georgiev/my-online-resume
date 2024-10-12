@@ -34,8 +34,8 @@
 }
 
 .education-entry-dates::before {
-    content: '\f073';
-    font-family: FontAwesome;
+    content: '\e900';
+    font-family: 'icomoon';
     font-style: normal;
     margin-inline-end: .2rem;
 }
@@ -50,8 +50,8 @@
 }
 
 .education-entry-location::before {
-    content: '\f3c5';
-    font-family: FontAwesome;
+    content: '\e906';
+    font-family: 'icomoon';
     font-style: normal;
     margin-inline-end: .3rem;
 }
