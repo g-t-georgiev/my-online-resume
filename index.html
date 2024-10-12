@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <base href="/" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="/src/styles/main.css">
-    <link rel="stylesheet" href="/src/styles/sections.css">
-    <link rel="stylesheet" href="/src/styles/print.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" /> -->
+    <link rel="stylesheet" href="/src/assets/fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <link rel="stylesheet" href="/src/styles/sections.css" />
+    <link rel="stylesheet" href="/src/styles/print.css" />
     <script src="/src/scripts/main.js"></script>
     <title>Georgi Georgiev Resume</title>
 </head>
@@ -58,40 +58,40 @@
 
                 <li class="contact-option">
                     <a href="mailto:g.t.georgiev@students.softuni.bg" target="_blank">
-                        <i class="fa-regular fa-envelope"></i>
+                        <i class="icon-email"></i>
                         g.t.georgiev@students.softuni.bg
                     </a>
                 </li>
 
                 <li class="contact-option">
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="icon-location"></i>
                     Sofia, Bulgaria
                 </li>
 
                 <li class="contact-option">
                     <a href="https://github.com/g-t-georgiev" target="_blank">
-                        <i class="fa-brands fa-github"></i>
+                        <i class="icon-github"></i>
                         github/g-t-georgiev
                     </a>
                 </li>
 
                 <li class="contact-option">
                     <a href="tel:+359896551315">
-                        <i class="fa-solid fa-square-phone"></i>
+                        <i class="icon-phone"></i>
                         +359 896 551 315
                     </a>
                 </li>
 
                 <li class="contact-option">
                     <a href="https://codepen.io/g-t-georgiev" target="_blank">
-                        <i class="fa-brands fa-codepen"></i>
+                        <i class="icon-codepen"></i>
                         codepen/g-t-georgiev
                     </a>
                 </li>
 
                 <li class="contact-option">
                     <a href="https://linkedin.com/in/georgi-georgiev-10a228264" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="icon-linkedin"></i>
                         linkedin/georgi-georgiev
                     </a>
                 </li>
@@ -106,6 +106,7 @@
 
         <div class="col flex">
 
+            <!-- Education -->
             <section id="education">
 
                 <h2 class="section-title">Education</h2>
@@ -174,6 +175,7 @@
     
             </section>
     
+            <!-- Certificates -->
             <section id="certificates">
     
                 <h2 class="section-title">Certificates</h2>
@@ -280,6 +282,7 @@
     
             </section>
     
+            <!-- Languages -->
             <section id="languages">
     
                 <h2 class="section-title">Languages</h2>
@@ -309,6 +312,7 @@
 
         <div class="col flex">
 
+            <!-- Tech skills -->
             <section id="tech-skills">
 
                 <h2 class="section-title">Tech Skills</h2>
@@ -318,47 +322,51 @@
                     <article class="tech-skill-entry">
                         <h3 class="tech-skill-entry-title">Web</h3>
                         <p class="tech-skill-entry-stack">
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="JavaScript">
                                 <img 
                                     class="js-icon"
-                                    src="./src/assets/images/icons/javascript-icon.svg" 
+                                    src="./src/assets/images/icons/javascript.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="javascript-icon"
-                                >
+                                />
 
                                 <span class="tech-skill-entry-stack-item-txt">JavaScript</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="HTML">
                                 <img 
                                     class="html-icon"
-                                    src="./src/assets/images/icons/html-icon.svg" 
+                                    src="./src/assets/images/icons/html.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="html-icon"
-                                >
+                                />
 
                                 <span class="tech-skill-entry-stack-item-txt">HTML</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="CSS">
                                 <img 
                                     class="css-icon" 
-                                    src="./src/assets/images/icons/css-icon.svg" 
+                                    src="./src/assets/images/icons/css.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="css-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">CSS</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="Wordpress">
                                 <img 
                                     class="wordpress-icon" 
-                                    src="./src/assets/images/icons/wordpress-icon.svg" 
+                                    src="./src/assets/images/icons/wordpress.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="wordpress-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">Wordpress</span>
                             </span>
@@ -368,47 +376,51 @@
                     <article class="tech-skill-entry">
                         <h3 class="tech-skill-entry-title">Frameworks</h3>
                         <p class="tech-skill-entry-stack">
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="Angular">
                                 <img 
                                     class="angular-icon" 
-                                    src="./src/assets/images/icons/angular-icon.svg" 
+                                    src="./src/assets/images/icons/angular.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="angular-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">Angular</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="React">
                                 <img 
                                     class="react-icon" 
-                                    src="./src/assets/images/icons/react-icon.svg" 
+                                    src="./src/assets/images/icons/reactjs.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="react-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">React</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="Express">
                                 <img
                                     class="express-icon" 
-                                    src="./src/assets/images/icons/express-icon.svg" 
+                                    src="./src/assets/images/icons/expressjs.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="express-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">Express</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="Mocha">
                                 <img 
                                     class="mocha-icon" 
-                                    src="./src/assets/images/icons/mocha-icon.svg" 
+                                    src="./src/assets/images/icons/mochajs.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="mocha-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">Mocha</span>
                             </span>
@@ -418,14 +430,15 @@
                     <article class="tech-skill-entry">
                         <h3 class="tech-skill-entry-title">Databases</h3>
                         <p class="tech-skill-entry-stack">
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="MongoDB">
                                 <img 
                                     class="mongodb-icon"
-                                    src="./src/assets/images/icons/mongodb-icon.svg" 
+                                    src="./src/assets/images/icons/mongodb.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="mongodb-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">MongoDB</span>
                             </span>
@@ -435,47 +448,51 @@
                     <article class="tech-skill-entry">
                         <h3 class="tech-skill-entry-title">Tools</h3>
                         <p class="tech-skill-entry-stack">
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="NGRX">
                                 <img 
                                     class="ngrx-icon" 
-                                    src="./src/assets/images/icons/ngrx-icon.svg" 
+                                    src="./src/assets/images/icons/ngrx.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="ngrx-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">NGRX</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="NodeJS">
                                 <img 
                                     class="nodejs-icon"
-                                    src="./src/assets/images/icons/nodejs_icon.svg" 
+                                    src="./src/assets/images/icons/nodejs.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="nodejs-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">NodeJS</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="Mongoose">
                                 <img 
                                     class="mongoose-icon"
-                                    src="./src/assets/images/icons/mongoose-icon.svg" 
+                                    src="./src/assets/images/icons/mongoose.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="mongoose-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">Mongoose</span>
                             </span> 
-                            <span class="tech-skill-entry-stack-item">
+                            <span class="tech-skill-entry-stack-item" title="Git">
                                 <img 
                                     class="git-icon"
-                                    src="./src/assets/images/icons/git-icon.svg" 
+                                    src="./src/assets/images/icons/git.svg" 
                                     width="18" 
                                     height="18" 
+                                    loading="lazy"
                                     alt="git-icon"
-                                >
+                                />
                                 
                                 <span class="tech-skill-entry-stack-item-txt">Git</span>
                             </span>
@@ -486,6 +503,7 @@
 
             </section>
 
+            <!-- Work experience -->
             <section id="job-experience">
                 <h2 class="section-title">Work Experience</h2>
 
@@ -507,7 +525,8 @@
                 </article>
             </section>
 
-            <section id="personal-projects">
+            <!-- Personal projects -->
+            <section id="personal-projects" style="display: none;">
 
                 <h2 class="section-title">Personal Projects</h2>
 
@@ -523,77 +542,110 @@
                         >
                             https://github.com/g-t-georgiev/recipes-blog-angular-project
                         </a>
-
                         <p class="project-desc">
                             Recipes blog is a MEAN stack app project assignment for the final exam of the Angular course. Implemented it using Angular (v14) + NGRX, Google Drive API, Express and Mongoose. Still undergoing development and upgrading.
                         </p>
-
-
                         <p class="project-stack-icons">
                             
                             <img 
                                 class="project-stack-icon"
-                                src="./src/assets/images/icons/angular-icon.svg" 
+                                src="./src/assets/images/icons/angular.svg" 
                                 width="18" 
                                 height="18" 
+                                loading="lazy" 
+                                title="Angular"
                                 alt="angular-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/typescript-icon.svg" 
+                                src="./src/assets/images/icons/typescript.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy" 
+                                title="TypeScript"
                                 alt="typescript-icon"
-                            >                        
+                            />  
+                            
+                            <img 
+                                class="project-stack-icon" 
+                                src="./src/assets/images/icons/html.svg" 
+                                width="18" 
+                                height="18" 
+                                loading="lazy" 
+                                title="HTML"
+                                alt="html-icon"
+                            /> 
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/ngrx-icon.svg" 
+                                src="./src/assets/images/icons/css.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy" 
+                                title="CSS"
+                                alt="css-icon"
+                            /> 
+
+                            <img 
+                                class="project-stack-icon" 
+                                src="./src/assets/images/icons/ngrx.svg" 
+                                width="18" 
+                                height="18" 
+                                loading="lazy" 
+                                title="NGRX"
                                 alt="ngrx-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/ggl-drive-icon.svg" 
+                                src="./src/assets/images/icons/ggldrive.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy" 
+                                title="Google Drive API"
                                 alt="ggl-drive-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/express-icon.svg" 
+                                src="./src/assets/images/icons/expressjs.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy" 
+                                title="ExpressJS"
                                 alt="express-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/mongoose-icon.svg" 
+                                src="./src/assets/images/icons/mongoose.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy" 
+                                title="Mongoose"
                                 alt="mongoose-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/nodejs_icon.svg" 
+                                src="./src/assets/images/icons/nodejs.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy"
+                                title="NodeJS"
                                 alt="nodejs-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/mongodb-icon.svg" 
+                                src="./src/assets/images/icons/mongodb.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy" 
+                                title="MongoDB"
                                 alt="mongodb-icon"
-                            >                        
+                            />                        
 
                         </p>
 
@@ -616,58 +668,88 @@
                         >
                             https://github.com/g-t-georgiev/recipes-blog-api
                         </a>
-
                         <p class="project-desc">
                             Recipes blog is a MERN stack app for recipe searching, reading and posting. It is divided into private and public parts, depending on the user status (authenticated or unauthenticated), as well as the role of the user (guest, user, author). Implemented using React, Express and Mongoose.
                         </p>
-
                         <p class="project-stack-icons">
                             
                             <img 
                                 class="project-stack-icon"
-                                src="./src/assets/images/icons/react-icon.svg" 
+                                src="./src/assets/images/icons/reactjs.svg" 
                                 width="18" 
                                 height="18" 
+                                loading="lazy"
+                                title="ReactJS"
                                 alt="react-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon"
-                                src="./src/assets/images/icons/javascript-icon.svg" 
+                                src="./src/assets/images/icons/javascript.svg" 
                                 width="18" 
                                 height="18" 
+                                loading="lazy"
+                                title="JavaScript"
                                 alt="javascript-icon"
-                            >                        
+                            /> 
+                            
+                            <img 
+                                class="project-stack-icon" 
+                                src="./src/assets/images/icons/html.svg" 
+                                width="18" 
+                                height="18" 
+                                loading="lazy" 
+                                title="HTML"
+                                alt="html-icon"
+                            /> 
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/express-icon.svg" 
+                                src="./src/assets/images/icons/css.svg" 
+                                width="18" 
+                                height="18" 
+                                loading="lazy" 
+                                title="CSS"
+                                alt="css-icon"
+                            /> 
+
+                            <img 
+                                class="project-stack-icon" 
+                                src="./src/assets/images/icons/expressjs.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy" 
+                                title="ExpressJS"
                                 alt="express-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/mongoose-icon.svg" 
+                                src="./src/assets/images/icons/mongoose.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy"
+                                title="Mongoose"
                                 alt="mongoose-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/nodejs_icon.svg" 
+                                src="./src/assets/images/icons/nodejs.svg" 
                                 width="18" 
-                                height="18"
+                                height="18" 
+                                loading="lazy"
+                                title="NodeJS"
                                 alt="nodejs-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/mongodb-icon.svg" 
+                                src="./src/assets/images/icons/mongodb.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy"
+                                title="MongoDB"
                                 alt="mongodb-icon"
                             >                        
 
@@ -685,61 +767,90 @@
                         >
                             https://github.com/g-t-georgiev/cubicle
                         </a>
-
                         <p class="project-desc">
                             This is a student project for the web backend module from Softuni. It is a backend application, implementing basic user authentication and authorization, that supports CRUD operations on resources, stored in the database.
                         </p>
-
                         <p class="project-stack-icons">
 
                             <img 
                                 class="project-stack-icon"
-                                src="./src/assets/images/icons/javascript-icon.svg" 
+                                src="./src/assets/images/icons/javascript.svg" 
+                                width="18" 
+                                height="18"
+                                loading="lazy"
+                                title="JavaScript"
+                                alt="javascript-icon"
+                            />    
+                            
+                            <img 
+                                class="project-stack-icon" 
+                                src="./src/assets/images/icons/html.svg" 
                                 width="18" 
                                 height="18" 
-                                alt="javascript-icon"
-                            >                        
+                                loading="lazy" 
+                                title="HTML"
+                                alt="html-icon"
+                            /> 
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/express-icon.svg" 
+                                src="./src/assets/images/icons/css.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy" 
+                                title="CSS"
+                                alt="css-icon"
+                            />
+
+                            <img 
+                                class="project-stack-icon" 
+                                src="./src/assets/images/icons/expressjs.svg" 
+                                width="18" 
+                                height="18"
+                                loading="lazy"
+                                title="ExpressJS"
                                 alt="express-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/mongoose-icon.svg" 
+                                src="./src/assets/images/icons/mongoose.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy"
+                                title="Mongoose"
                                 alt="mongoose-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/nodejs_icon.svg" 
+                                src="./src/assets/images/icons/nodejs.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy"
+                                title="NodeJS"
                                 alt="nodejs-icon"
-                            >
+                            />
 
                             <img 
                                 class="project-stack-icon" 
-                                src="./src/assets/images/icons/mongodb-icon.svg" 
+                                src="./src/assets/images/icons/mongodb.svg" 
                                 width="18" 
                                 height="18"
+                                loading="lazy"
+                                title="MongoDB"
                                 alt="mongodb-icon"
-                            >                        
+                            />                        
 
                         </p>
 
                     </article>
-
+                    
                 </div>
 
             </section>
 
+            <!-- Soft skills -->
             <section id="soft-skills">
 
                 <h2 class="section-title">Soft Skills</h2>
