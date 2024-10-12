@@ -15,6 +15,11 @@ body {
     margin: 2rem;
 }
 
+a {
+    color: #28b4a3;
+    text-decoration: none;
+}
+
 .row {
     max-inline-size: 1180px;
     margin: 0 auto;
@@ -52,4 +57,11 @@ body {
     padding-block-end: .2rem;
     margin-block-end: 1.5rem;
     border-bottom: .25rem solid #28b4a3;
+}
+
+@media screen and (hover: hover) {
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
