@@ -7,10 +7,22 @@
 }
 
 .certificate-entry {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: .25rem 0;
+}
+
+.certificate-entry::before {
+    content: '\e904';
+    font-family: 'icomoon';
+    position: absolute;
+    top: 50%;
+    left: -.4375rem;
+    transform: translate(-100%, -50%) rotate(-20deg);
+    transition: opacity .33s ease;
+    opacity: 0;
 }
 
 .certificate-entry:not(:last-of-type) {
@@ -41,15 +53,13 @@
 
 .certificate-entry-link {
     flex-basis: 100%;
-    text-decoration: underline;
     font-size: .9375rem;
     font-weight: 400;
-    color: #28b4a3;
 }
 
 @media screen and (hover: hover) {
 
-    .certificate-entry-link:hover {
-        text-decoration: none;
+    .certificate-entry:has(.certificate-entry-link:hover)::before {
+        opacity: .35;
     }
 }
